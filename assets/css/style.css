@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* ESTILOS GENERALES */
+
+body{
+    font-family: 'roboto';
+}
+
+.bt-primary{
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.9rem 3rem;
+    border-radius: 0.1rem;
+    margin: 1rem 1rem;
+}
+
+.bt-primary:hover {
+    background-color: #cdc3e6;
+}
+
+.bt-primary:focus {
+    background-color: #bec1bb;
+}
+
+.container{
+    display: flex;
+}
+
+/* ESTILOS DE USUARIOS */
+
+.contactos{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 16rem;
+    border-right: 1px solid #bec1bb;
+}
+
+.miniatura{
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1.2rem;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8ebe4;
+    padding: 1rem;
+}
+
+.miniatura-usuarios{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #e8ebe4;
+    height: 57.5px;
+}
+
+.datos{
+    margin-left: 1rem;
+}
+
+.nombre{
+    color:  #1b1f21;
+    font-size: 0.9rem;
+}
+
+.estado{
+    color:#444749;
+    font-size: 0.8rem;
+}
+
+.estado1{
+    color: #BEC1BB;
+    font-size: 0.7rem;
+}
+
+.miniatura-img-1{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    border: 1px solid #BEC1BB;
+}
+
+.iconos{
+    display: flex;
+    align-items:end;
+    gap: 0.5rem;
+    flex-direction: row-reverse;
+    /* height: 33px; */
+    margin-left: 3rem;
+}
+
+.iconos a{
+    color: #828485;
+}
+
+.miniatura-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #BEC1BB;
+    margin-left: 2rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e8ebe4;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.descripcion{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main img{
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.descripcion{
+    width: 35rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    color: #1b1f21;
+}
